@@ -210,9 +210,6 @@ body {
   margin: 0;
   background-color: var(--white-main-banner);
 }
-.about-us-img {
-  margin-bottom: 30px;
-}
 .about-us figcaption {
   padding: 30px 0;
 }
@@ -295,7 +292,6 @@ about-position {
   border-radius: var(--button-radius);
   padding: 6px 22px;
   cursor: pointer;
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -324,8 +320,6 @@ about-position {
 }
 .about-all-projects li {
   border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 .about-all-projects-list {
@@ -338,11 +332,15 @@ about-position {
 }
 .about-all-projects-list figure {
   margin: 0;
-  border: 1px solid #eeeeee;
 }
 .about-all-projects-list figcaption {
   padding: 0 24px;
   margin: 20px 0;
+}
+.about-all-projects-list figure:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .nav-wrapper {
   display: flex;
@@ -381,6 +379,7 @@ about-position {
 .our-customers li:focus {
   color: var(--light-blue);
   border: 1px solid var(--light-blue);
+  cursor: pointer;
 }
 .our-customers-icon-box {
   box-sizing: border-box;
